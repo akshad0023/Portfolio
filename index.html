@@ -3,20 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Full Stack Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Font Awesome for Social Media Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>Welcome to My Portfolio</h1>
-    </header>
-    <section>
-      <h2>About Me</h2>
-      <p>This is where you introduce yourself!</p>
-    </section>
-    <footer>
-      <p>Contact me at: your.email@example.com</p>
-    </footer>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="logo">
+        <span class="logo-letter">A</span>
+      </div>
+      <div class="menu-container">
+        <!-- Menu Links -->
+        <div class="menu">
+          <a href="#about" class="menu-link">About</a>
+          <a href="#contact" class="menu-link">Contact</a>
+          <a href="#projects" class="menu-link">Projects</a>
+        </div>
+        <!-- Social Links -->
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/akshad_0023/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/akshad-kheratkar-10aa13225/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main-container">
+      <!-- Left Section: Introduction -->
+      <div class="left-section">
+        <!-- Sketch Image -->
+        <img
+          src="/Users/akshadkheratkar/Desktop/Projects /Pictures/Screenshot 2024-11-17 at 7.57.29 PM.png"
+          alt="Sketch of Akshad"
+          class="sketch-image"
+        />
+        <h1 id="typing-name"></h1>
+        <p>
+          I’m a passionate <strong>Full Stack Developer</strong> who loves
+          crafting engaging user experiences and building scalable, robust
+          backend solutions. With expertise in JavaScript, React, and Node.js, I
+          strive to bring creativity and functionality together.
+        </p>
+        <p>
+          Whether it's creating intuitive UI designs or developing powerful
+          APIs, I’m always up for a challenge. Let’s build something amazing
+          together!
+        </p>
+      </div>
+
+      <!-- Right Section: Graphical Elements -->
+      <div class="right-section">
+        <div class="code-graphic">
+          <div class="code-line">function greet() {</div>
+          <div class="code-line">
+            &nbsp;&nbsp;console.log("<span id="typing-message"></span>");
+          </div>
+          <div class="code-line">}</div>
+          <div class="code-line">greet();</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="script.js"></script>
   </body>
 </html>
