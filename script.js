@@ -50,7 +50,7 @@ particlesJS('particles-js', {
       value: "#333", // Particle color
     },
     shape: {
-      type: "circle", // Other options: "edge", "triangle", "polygon"
+      type: "triangle", // Other options: "edge", "triangle", "polygon"
     },
     opacity: {
       value: 0.5,
